@@ -1,0 +1,210 @@
+
+/*************************************************
+ RESPONSIVENESS 
+*************************************************/
+
+@media screen and (min-width: 375px) {
+
+    .progressbar {
+      width: 274.734px
+    }
+    .content__section .content__frame {
+      min-height: 20vh;
+    }
+  
+    .info__section {
+      padding: 1rem;
+    }
+  }
+
+
+  @media screen and (min-width: 425px) {
+    .hero__section .hero__info {
+      margin-top: 1rem;
+    }
+  
+    .content__section .content__frame {
+      min-height: 25vh;
+    }
+  }
+  
+  @media screen and (min-width: 768px) {
+    .hero__section .hero__info {
+      margin-top: 2rem;
+    }
+    .hero__section .hero__info h1 {
+      font-size: 1.5rem;
+      text-align: left;
+    }
+    .hero__section .hero__info p {
+      font-size: 0.9rem;
+    }
+  
+    .info__section {
+      flex-direction: row;
+      gap: 2rem;
+      justify-content: center;
+    }
+  
+    .content__section .content__frame {
+      min-height: 45vh;
+    }
+  
+    .content__section .content__info {
+      padding: 1.5rem;
+    }
+  
+    .content__section .content__info h2 {
+      font-size: 1.08rem;
+      margin-bottom: 0.5rem;
+      text-align: center;
+      font-weight: 700;
+    }
+    .content__section .content__info p {
+      font-size: 0.9rem;
+    }
+  
+    .faq__section {
+      padding: 2rem;
+    }
+  
+    .faq__section .faq__heading > h2 {
+      text-align: left;
+      margin-left: 2rem;
+    }
+  
+    .faq__section .faq__info {
+      width: 50%;
+    }
+  
+    .contact__section {
+      padding: 1rem 2rem;
+    }
+  
+  
+  /******************************
+      DASHBOARD RESPONSIVENESS
+  ******************************/
+  
+  /* #formDataTable_wrapper .row {
+    width: 85% !important;
+    margin-bottom: 2rem; 
+  }
+  #formDataTable_wrapper .dt-row {
+    width: 90% !important;
+    
+  } */
+  
+  
+  /************************** 
+        FORM  
+  ***************************/
+  .form_section-container {
+    width: 40rem;
+  }
+  /************************** 
+        ALL DATA
+  ***************************/
+  
+  .all-data_section main {
+    width: 80%;
+    margin: 0 auto;
+  }
+  
+  }
+  
+  @media screen and (min-width: 1024px) {
+    .nav_profile ul {
+      left: -3rem;
+    }
+  
+    .hero__section .frame {
+      min-height: 80vh;
+    }
+    .hero__section .hero__info {
+      padding: 0 2rem;
+      margin-top: 4rem;
+    }
+    .hero__section .hero__info h1 {
+      font-size: 2rem;
+    }
+    .hero__section .hero__info p {
+      font-size: 1.2rem;
+    }
+    .content__section .content__frame {
+      min-height: 60vh;
+    }
+  
+    .content__section .content__info h2 {
+      font-size: 1.4rem;
+    }
+    .content__section .content__info p {
+      font-size: 1.1rem;
+    }
+  
+    .contact__section .row {
+      padding: 4rem;
+    }
+  
+    .row__content__info {
+      padding: 0 1rem;
+    }
+  
+    
+    /******************************
+    DASHBOARD RESP
+    ******************************/
+    
+    
+    .dashboard {
+      margin-top: 2rem;
+    }
+  
+    .dashboard .sidebar_toggle {
+      display: none;
+    }
+  
+    .dashboard_container {
+      display: flex;
+      gap: 1rem;
+      width: 60rem;
+      overflow: none;
+    }
+  
+    .dashboard aside {
+      position: relative;
+      top: 0%;
+      left: 0%;
+      z-index: 0;
+      width: 13rem;
+    }
+  
+    .dashboard aside a {
+      padding: 1rem;
+    }
+  
+    .dashboard main {
+      width: 85%;
+      margin: 0 auto;
+      padding: 0.5rem 1.5rem;
+    }
+  
+    .dashboard main table {
+      /* width: 90%; */
+      /* margin-left: 0; */
+      margin-top: 1rem;
+      text-align: left;
+      color: var(--text-white);
+    }
+  }
+  
+  @media screen and (min-width: 1440px) {
+    .hero__section .hero__info {
+      padding-top: 3rem;
+    }
+  
+    .content__section .content__frame {
+      min-height: 70vh;
+    }
+  }
+  
